@@ -1,16 +1,35 @@
-# React + Vite
+# BaalCare Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, cinematic landing page for the "BaalCare" shampoo brand built using React, Vite, Tailwind CSS, and GSAP.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Immersive Scroll Storytelling:** Using GSAP ScrollTrigger, the entire hero section is pinned and highly animated natively by the user's scroll.
+- **Fibonacci Design Grid:** Layout, scales, spacing margins, and canvas particle algorithms all reference gold ratio (~1.618) and the fibonacci sequence.
+- **HTML5 Canvas Background:** Ultra-performant dynamic background generating golden spiral curves mapping to simulated "hair strands," along with particle systems using `requestAnimationFrame`. No DOM clutter.
+- **Micro-Interactions:** Mouse slight parallax and native physics feel.
+- **Responsive:** Fluid CSS grids down to mobile devices.
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Install Dependencies**
+   Navigate to the project directory and run npm install `npm install` inside the terminal.
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Build for Production**
+   ```bash
+   npm run build
+   ```
+
+## Tech Stack
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS
+- **Animation:** GSAP & ScrollTrigger
+- **Canvas:** Native Canvas API `requestAnimationFrame`
